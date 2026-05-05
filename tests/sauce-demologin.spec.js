@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { SauceDemoLoginPage } from '../pages/SauceDemoLoginPage.js';
+import { SauceDemoLoginPage } from '../POM/SauceDemoLoginPage.js';
 
 test.describe('Sauce Demo Login Functionality', () => {
   let loginPage;
